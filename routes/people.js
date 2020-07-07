@@ -12,7 +12,7 @@ Router.get('/',(request,response)=>{
 });
 
 Router.post('/create',(request,response)=>{
-    response.send(request);
+    response.send(request.body);
 });
 
 module.exports=Router;
